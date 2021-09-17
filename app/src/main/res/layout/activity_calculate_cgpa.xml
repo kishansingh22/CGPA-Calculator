@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FC656"
+    android:orientation="vertical"
+    tools:context=".CalculateCGPA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Enter your Grade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/sub1"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint=" Research Method"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <EditText
+        android:id="@+id/sub2"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Data Structure"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:id="@+id/sub3"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  DS (LAB)"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/sub4"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Python Lab"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/sub5"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Content Tech"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <EditText
+        android:id="@+id/sub6"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Networking"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <EditText
+        android:id="@+id/sub7"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Math"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <EditText
+        android:id="@+id/sub8"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#44A1EC"
+        android:ems="10"
+        android:hint="  Python"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sub1"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#E91E63"
+        android:text="Calculate CGPA"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="298dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFEB3B"
+        android:text="            "
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+</LinearLayout>

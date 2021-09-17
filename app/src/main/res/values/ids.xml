@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sub2" type="id">sub1</item>
+    <item name="sub3" type="id">sub3</item>
+    <item name="sub4" type="id">sub4</item>
+    <item name="sub5" type="id">sub5</item>
+    <item name="sub6" type="id" />
+    <item name="sub7" type="id">sub6</item>
+    <item name="sub8" type="id">sub8</item>
+    <item name="btnadd" type="id">btnadd</item>
+</resources>
